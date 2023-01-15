@@ -1,7 +1,7 @@
 import Route from '@ioc:Adonis/Core/Route'
 
-Route.get('/test', async () => {
-  return {
-    test: 'hahah',
-  }
-})
+Route.group(() => {
+  Route.get('test', async () => {
+    return { haha: 'test' }
+  })
+}).prefix('team')
