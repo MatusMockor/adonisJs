@@ -2,6 +2,6 @@
 
 export default class TeamsController {
   public async index() {
-    return { haha: 'muhaha' }
+    return { haha: 'muhaha' };
   }
 }
