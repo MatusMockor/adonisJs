@@ -20,6 +20,10 @@
     "rules": {
       "prettier/prettier": [
         "error"
+      ],
+      "operator-linebreak": [
+        "error",
+        "after"
       ]
     }
   },
@@ -28,7 +32,7 @@
   ],
   "prettier": {
     "trailingComma": "es5",
-    "semi": false,
+    "semi": true,
     "singleQuote": true,
     "useTabs": false,
     "quoteProps": "consistent",
