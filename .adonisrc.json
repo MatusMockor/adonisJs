@@ -16,6 +16,7 @@
   "preloads": [
     "./start/routes",
     "./start/team",
+    "./start/post",
     "./start/kernel"
   ],
   "providers": [
