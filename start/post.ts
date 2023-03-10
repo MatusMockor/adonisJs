@@ -1,3 +1,5 @@
 import Route from '@ioc:Adonis/Core/Route';
 
-Route.group(() => {}).prefix('posts');
+Route.group(() => {
+  Route.get('/', 'PostsController.index');
+}).prefix('posts');
